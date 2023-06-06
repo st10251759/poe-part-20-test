@@ -96,7 +96,7 @@ int taskDuration = Integer.parseInt(JOptionPane.showInputDialog(null, "Please en
 String[] choices = { "To Do", "Doing", "Done"};
 
     String taskStatus = (String) JOptionPane.showInputDialog(null, "Choose now...",
-        "The Choice of a Lifetime", JOptionPane.QUESTION_MESSAGE, null, // Use
+        "Select Task Status", JOptionPane.QUESTION_MESSAGE, null, // Use
                                                                         // default
                                                                         // icon
         choices, // Array of choices

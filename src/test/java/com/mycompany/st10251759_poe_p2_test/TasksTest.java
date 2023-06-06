@@ -26,7 +26,7 @@ public class TasksTest {
     //Variable Expected => the boolean value of a patricular result from a method
     
     //instaniate constuctor 
-     Tasks tasks = new Tasks("Test", "Test", "Test", 1, "Test", 0);
+     Tasks tasks = new Tasks("Test", "Test", "Test", 1, "To Do", 0);
      
      /**
      * Test of checkTaskDescription() method is Correct, of class Tasks.
