@@ -90,8 +90,18 @@ String devDetails = JOptionPane.showInputDialog(null, "Please enter the first an
 int taskDuration = Integer.parseInt(JOptionPane.showInputDialog(null, "Please enter the duration allocated to completing the task in the estimated hours"));
 
       //prompt user for task name
-String taskStatus = JOptionPane.showInputDialog(null, "Please enter the status of task, Chose from: \n1. To do\n2. Doing\n3. Done");
- 
+  // String taskStatus = "";   //create variable to store the option 
+   //get the input form the user using a selection
+//String taskStatus = JOptionPane.showInputDialog(null, "Please enter the number for status of task, Chose from: \n1. To do\n2. Doing\n3. Done");
+String[] choices = { "To Do", "Doing", "Done"};
+
+    String taskStatus = (String) JOptionPane.showInputDialog(null, "Choose now...",
+        "The Choice of a Lifetime", JOptionPane.QUESTION_MESSAGE, null, // Use
+                                                                        // default
+                                                                        // icon
+        choices, // Array of choices
+        choices[1]); // Initial choice
+
 //get the total for the duration in for loop
 //totalDuration = totalDuration + taskDuration;
 
